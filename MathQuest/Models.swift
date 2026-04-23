@@ -12,13 +12,13 @@ enum MathTopic : String, CaseIterable{
     case addSubtract    = "Add/Subtract"
     case multiplyDivide = "Multiply/Divide"
     case fractions      = "Fractions"
-    case Algebra        = "Algebra"
+    case algebra        = "Algebra"
 }
 
 //Struct: Question
 //Where to store the type of question
 struct Question {
-    let propmt: String          //Immutable Variable String
+    let prompt: String          //Immutable Variable String
     let answer: Double          //Immutable variable double
     let choices: [Double]       //Immutable variable array of double
 }
